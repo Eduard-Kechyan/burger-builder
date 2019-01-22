@@ -1,3 +1,14 @@
+.orders-container{
+    margin: 0 auto;
+    @media (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    @media (min-width: 1200px) {
+        max-width: 70%;
+    }
+}
+
 .orders-error{
     text-align: center;
     color: red;

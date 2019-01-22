@@ -6,6 +6,17 @@
     margin: 10px auto;
     box-sizing: border-box;
     @media (min-width: 768px) {
-        width: 80%;
+        width: calc(50% - 20px);
     }
+    @media (min-width: 1200px) {
+        width: calc(33.33% - 20px);
+    }
+}
+
+.ingredient{
+    text-transform: capitalize;
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
 }

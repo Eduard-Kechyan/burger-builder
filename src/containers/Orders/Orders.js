@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Order from '../../components/Order/Order';
-import Aux from '../../hoc/Auxiliary/Auxiliary';
 import axios from '../../axios-orders';
 import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler';
 import styles from './Orders.module.scss';
@@ -48,9 +47,9 @@ class Orders extends Component {
         }
 
         return (
-            <Aux>
+            <div className={styles["orders-container"]}>
                 {orders}
-            </Aux>
+            </div>
         );
     }
 }
