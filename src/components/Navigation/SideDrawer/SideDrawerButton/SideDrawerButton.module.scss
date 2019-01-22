@@ -1,0 +1,16 @@
+.side-drawer-button {
+    width: 40px;
+    height: 40px;
+    background-color: #8F5C2C;
+    border: none;
+    transition: .3s;
+    cursor: pointer;
+    color: white;
+    &:focus {
+        outline: none;
+    }
+    &:hover {
+        background-color: #c27d3c;
+        color: black;
+    }
+}
